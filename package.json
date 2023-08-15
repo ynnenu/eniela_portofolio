@@ -1,0 +1,27 @@
+{
+    "name": "eniela_portfolio",
+    "version": "1.0.0",
+    "description": "Eniela Vela's Portfolio Website",
+    "main": "src/main.js",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "eslint": "^8.47.0",
+        "vue": "^3.0.0",
+        "vue-router": "^4.0.0",
+        "vuex": "^4.0.0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^5.0.8",
+        "@vue/cli-plugin-eslint": "^5.0.8",
+        "@vue/cli-service": "^5.0.8",
+        "@vue/compiler-sfc": "^3.0.0",
+        "babel-eslint": "^10.1.0",
+        "eslint-plugin-vue": "^7.0.0",
+        "sass": "^1.32.0",
+        "sass-loader": "^10.1.0"
+    }
+}
