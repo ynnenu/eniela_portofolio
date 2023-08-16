@@ -1,22 +1,27 @@
 
 <template>
   <div id="app">
+
+<nav style="display: flex; justify-content: space-between; padding: 10px 20px; background-color: #333;">
+    <a href="#home" style="color: white; text-decoration: none; padding: 5px 10px; transition: background-color 0.3s ease;">Home</a>
+    <a href="#profile" style="color: white; text-decoration: none; padding: 5px 10px; transition: background-color 0.3s ease;">Profile</a>
+
+</nav>
+
     <Home />
     <Profile />
-    <Employment />
-    <ContactMe />
+
   </div>
 </template>
 <script>
 import Home from './components/Home.vue'
 import Profile from './components/Profile.vue'
-import Employment from './components/Employment.vue'
 export default {
   name: 'App',
   components: {
     Home,
     Profile,
-    Employment
+
   }
 }
 </script>
@@ -112,5 +117,15 @@ p {
   h2 {
     font-size: 1.5em;
   }
+}
+</style>
+
+<footer style="padding: 20px; text-align: center; background-color: #333; color: white; font-size: 0.9em; margin-top: 20px;">
+    Copyright © 2023 Eniela Vela
+</footer>
+
+<style>
+a:hover {
+    background-color: #555;
 }
 </style>
